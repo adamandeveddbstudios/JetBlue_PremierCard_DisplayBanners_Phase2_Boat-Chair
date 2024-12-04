@@ -76,11 +76,6 @@ video {
   src: url("./fonts/ESKlarheitGrotesk-Xbd.woff");
   font-weight: normal;
 }
-@font-face {
-  font-family: "roboto black";
-  src: url("./fonts/subset-Roboto-Black.woff");
-  font-weight: normal;
-}
 
 /* Text */
 
@@ -101,7 +96,7 @@ video {
   position: absolute;
   font-size: 8px;
   transform: translate(-6px, 0px);
-  font-family: "roboto black";
+  font-family: "ESKlarheitGrotesk Xbd";
   letter-spacing: 0.2px;
 }
 
