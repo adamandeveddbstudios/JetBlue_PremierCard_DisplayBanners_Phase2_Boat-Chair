@@ -96,7 +96,7 @@ video {
 
 #text_holder sup {
   position: absolute;
-  font-size: 8.5px;
+  font-size: 9px;
   transform: translate(-4.2px, -6.6px);
   font-family: "ESKlarheitGrotesk Xbd";
   letter-spacing: 0.2px;
