@@ -105,7 +105,11 @@ video {
   font-family: "ESKlarheitGrotesk Xbd";
   letter-spacing: 0.2px;
 }
-
+.fullstop{
+  position: absolute;
+  color: #fff !important;
+  left: 383.5px;
+}
 #h1 {
   width: 400px
 }

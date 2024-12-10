@@ -123,6 +123,11 @@ video {
   color: #000064;
   font-family: "ESKlarheitGrotesk Xbd";
 }
+.fullstop{
+  position: absolute;
+  color: #fff !important;
+  left: 128px;
+}
 #h4 {
   font-size: 17px;
   line-height: 21px;

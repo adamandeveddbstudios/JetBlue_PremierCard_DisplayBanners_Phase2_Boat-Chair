@@ -99,7 +99,11 @@ video {
   font-family: "ESKlarheitGrotesk Xbd";
   letter-spacing: 0.2px;
 }
-
+.fullstop{
+  position: absolute;
+  color: #fff !important;
+  left: 137.3px;
+}
 #h1 {
   font-size: 21px;
   line-height: 1.3;
