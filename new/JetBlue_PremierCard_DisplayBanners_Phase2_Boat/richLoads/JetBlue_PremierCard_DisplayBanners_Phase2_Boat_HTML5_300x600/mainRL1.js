@@ -35,11 +35,11 @@ function animate() {
     .to('#h2', 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, 'frame3')
     .to('#h3', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame3+=0.5")
 
-  // tl.addLabel('frame4', 12)
-  //   .to(["#h3, #bgImg, #card, #term, #logo"], 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, "frame4")
-  //   .to('#h4', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame4+=0.5")
-  //   .to('#card1,#cta,#logo', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame4+=1")
-  //   .to('#shine1', 1, { autoAlpha: 1, backgroundPosition: '230px 50px' });
+  tl.addLabel('frame4', 12)
+    .to(["#h3, #bgImg, #card, #term, #logo"], 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, "frame4")
+    .to('#h4', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame4+=0.5")
+    .to('#card1,#cta,#logo', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame4+=1")
+    .to('#shine1', 1, { autoAlpha: 1, backgroundPosition: '230px 50px' });
 
 }
 
