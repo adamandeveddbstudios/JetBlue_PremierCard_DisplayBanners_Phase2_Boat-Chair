@@ -95,9 +95,10 @@ video {
 #text_holder sup {
   position: absolute;
   font-size: 9px;
-  transform: translate(-5.7px, -7.1px);
   font-family: "ESKlarheitGrotesk Xbd";
   letter-spacing: 0.2px;
+  top: 18px;
+  left: 140.7px;
 }
 .fullstop{
   position: absolute;
@@ -130,7 +131,9 @@ video {
 #h3 sup{
   font-size: 11px;
   font-family: "ESKlarheitGrotesk Xbd";
-  transform: translate(-0.6px, -7.5px);
+  top: 117.5px;
+  left: 130.7px;
+  position: absolute;
 }
 #h4 {
   font-size: 21px;
