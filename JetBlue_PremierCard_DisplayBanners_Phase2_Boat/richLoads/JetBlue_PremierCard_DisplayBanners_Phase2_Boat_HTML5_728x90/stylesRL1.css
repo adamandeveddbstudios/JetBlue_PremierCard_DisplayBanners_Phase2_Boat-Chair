@@ -89,9 +89,9 @@ video {
   width: 100%;
   left: 17px;
   top: 8px;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 31.5px;
-  letter-spacing: -0.5px;
+  letter-spacing: 0.1px;
 }
 
 #text_holder span {
@@ -101,11 +101,16 @@ video {
 #text_holder sup {
   position: absolute;
   font-size: 9px;
-  transform: translate(-4.3px, 0.7px);
+  transform: translate(-5.5px, -6.9px);
   font-family: "ESKlarheitGrotesk Xbd";
   letter-spacing: 0.2px;
 }
-
+.fullstop{
+  position: absolute;
+  color: #fff !important;
+  left: 383.5px;
+  bottom: 0px;
+}
 #h1 {
   width: 400px
 }
@@ -116,27 +121,25 @@ video {
 }
 
 #h2 {
-  font-size: 23px;
-  line-height: 1.15;
-  letter-spacing: -0.8px;
-  top: 7px;
+  font-size: 20px;
+  line-height: 24px;
+  top: 9px;
 }
 
 #h3 {
-  font-size: 21.5px;
-  letter-spacing: -0.5px;
-  line-height: 1.4;
-  top: 3px;
+  font-size: 20px;
+  line-height: 24px;
+  top: 9px;
 }
 #h3 sup{
   font-size: 13px;
-  transform: translate(1px, -3px);
+  transform:translate(-0.7px, -8.1px);
   color: #000064;
   font-family: "ESKlarheitGrotesk Xbd";
 }
 #h4 {
-  font-size: 24.7px;
-  line-height: 25px;
+  font-size: 20px;
+  line-height: 24px;
   top: 8px;
 }
 #h4 span{
