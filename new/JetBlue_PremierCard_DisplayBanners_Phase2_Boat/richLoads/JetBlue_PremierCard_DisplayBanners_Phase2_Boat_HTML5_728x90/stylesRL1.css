@@ -109,6 +109,7 @@ video {
   position: absolute;
   color: #fff !important;
   left: 383.5px;
+  bottom: 0px;
 }
 #h1 {
   width: 400px
